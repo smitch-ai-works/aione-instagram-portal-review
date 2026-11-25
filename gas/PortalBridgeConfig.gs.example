@@ -1,0 +1,3 @@
+// Private server configuration. Use the same random value as GAS_BRIDGE_SECRET.
+// Name the deployed private file PortalBridgeConfig.gs; never commit its value.
+function portalBridgeConfig_(){return {secret:'REPLACE_WITH_PRIVATE_SHARED_SECRET'};}

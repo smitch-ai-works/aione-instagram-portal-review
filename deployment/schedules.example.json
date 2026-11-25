@@ -1,0 +1,8 @@
+[
+ {"job":"interviews","hour":8,"minute":30},
+ {"job":"revenue","hour":9,"minute":0},
+ {"job":"list-morning","hour":9,"minute":30},
+ {"job":"list-evening","hour":20,"minute":30},
+ {"job":"previous-month","day":1,"hour":0,"minute":1},
+ {"job":"maintenance","everyMinutes":30}
+]

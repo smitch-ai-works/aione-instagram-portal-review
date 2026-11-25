@@ -1,0 +1,7 @@
+The inspected project has no active doPost. Use DashboardHttpEntry.gs there.
+If a future project already has an active doPost(e), do not add a second one.
+Insert only this branch at the beginning and preserve the existing function.
+
+  if (e && e.parameter && e.parameter.portal_api === 'v1') {
+    return portalBridgeRequest_(e, 'dashboard');
+  }

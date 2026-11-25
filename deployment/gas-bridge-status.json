@@ -1,0 +1,26 @@
+{
+  "updated": "2026-10-30",
+  "secretRecorded": false,
+  "targets": [
+    {
+      "target": "monthly",
+      "versionBefore": 7,
+      "versionAfter": 8,
+      "readbackMatches": true,
+      "existingHtmlPreserved": true,
+      "existingWebhookPreserved": true,
+      "sameDeployment": true,
+      "sourceUpdateLogicPreserved": true
+    },
+    {
+      "target": "dashboard",
+      "versionBefore": 43,
+      "versionAfter": 44,
+      "readbackMatches": true,
+      "existingHtmlPreserved": true,
+      "existingWebhookPreserved": true,
+      "sameDeployment": true,
+      "sourceUpdateLogicPreserved": true
+    }
+  ]
+}

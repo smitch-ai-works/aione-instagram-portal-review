@@ -1,0 +1,2 @@
+'use strict';
+window.MonthlyData={preview:false,outputEnabled:false,saveOutput:entry=>window.PortalRpc('saveMonthlyOutput',[entry]),policy:()=>window.PortalRpc('getMonthlyReportPolicy'),init:async()=>{const data=await window.PortalRpc('getMonthlyReportInit');window.MonthlyData.outputEnabled=data?.monthlyOutputEnabled===true;return data;},monthly:(name,month)=>window.PortalRpc('getMonthlyReportData',[name,month])};
