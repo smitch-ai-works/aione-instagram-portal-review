@@ -6,7 +6,9 @@
 
 ## 起動
 
-Node.js 22以上。標準パスは `/aione-instagram` と、その配下の `/monthly-report`、`/results`、`/admin`。公開先候補は `https://tools.aione.co.jp/aione-instagram` ですが、本番公開は未実施です。
+Node.js 22以上。標準パスは `/aione-instagram` と、その配下の `/monthly-report`、`/results`、`/admin`。希望公開URLは `https://tools.aione.co.jp/aione-instagram` です。本番公開は未実施です。
+
+`gas/` は移行初期のHTTP連携コードと設定例で、現行GAS版アプリ一式ではありません。現在のNext.jsの実行には使わず、Google側で稼働中のGASを停止・変更するものでもありません。
 
 ```sh
 npm ci
